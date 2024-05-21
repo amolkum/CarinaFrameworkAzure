@@ -1,0 +1,10 @@
+utils\UserMapper1.class
+utils\ConnectionFactory.class
+utils\UserMapper.class
+utils\ApiHelper.class
+utils\UserPreferenceMapper.class
+utils\User.class
+utils\UserPreference.class
+utils\User$Status.class
+utils\UserPreference$Name.class
+utils\UserPreferenceMapper1.class

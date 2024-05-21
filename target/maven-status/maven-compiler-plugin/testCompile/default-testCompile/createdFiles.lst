@@ -1,0 +1,3 @@
+runnerClass\CucumberWebSampleTest.class
+com\qapropsoft\carina\demo\DBTestStep.class
+com\qapropsoft\carina\demo\APIBasicTest.class

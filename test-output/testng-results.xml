@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-22T01:30:13 IST" name="Default suite" finished-at="2024-05-22T01:30:23 IST" duration-ms="10258">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runnerClass.CucumberWebSampleTest@b273a59]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-05-22T01:30:13 IST" name="Default test" finished-at="2024-05-22T01:30:23 IST" duration-ms="10258">
+      <class name="runnerClass.CucumberWebSampleTest">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:runnerClass.CucumberWebSampleTest@b273a59]" started-at="2024-05-22T01:30:13 IST" name="setUpClass" finished-at="2024-05-22T01:30:13 IST" duration-ms="547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runnerClass.CucumberWebSampleTest@b273a59]" started-at="2024-05-22T01:30:13 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-22T01:30:22 IST" duration-ms="8656" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Perform operations on API like GET,POST,PUT,PATCH,DELETE"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verify the get post in the API]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runnerClass.CucumberWebSampleTest@b273a59]" started-at="2024-05-22T01:30:22 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-22T01:30:23 IST" duration-ms="591" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["I want to verify that the user is created in MySQL"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[DB Test]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runnerClass.CucumberWebSampleTest@b273a59]" started-at="2024-05-22T01:30:23 IST" name="tearDownClass" finished-at="2024-05-22T01:30:23 IST" duration-ms="407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runnerClass.CucumberWebSampleTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
